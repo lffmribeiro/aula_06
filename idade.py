@@ -2,7 +2,7 @@
 
 def pegar_idade():
     try:
-        idade = int(input('Digite sua idade: '))
+        idade = float(input('Digite sua idade: ').replace(',','.'))
         return idade
     except:
         print('Você digitou um caracter errado.')
