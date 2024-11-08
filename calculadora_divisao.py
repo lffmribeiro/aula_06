@@ -11,5 +11,5 @@ def calculadora():
     except:
         print('Você digitou algo errado.')
         calculadora()
-
-calculadora()
+if __name__ == "__main__":
+    calculadora()
