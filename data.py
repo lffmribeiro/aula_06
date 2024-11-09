@@ -10,8 +10,9 @@ def pedir_data():
         ano = int(lista[2])
         data = date(day=dia, month=mes, year=ano)
         print(f'São Paulo, dia {dia} do mês {mes} do ano {ano}, ou seja, sua data é {data}.')
-    except (ValueError, IndexError):
+    except ():
         print('Tente novamente')
         pedir_data()
     
-pedir_data()
+if __name__ == '__main__':
+    pedir_data()

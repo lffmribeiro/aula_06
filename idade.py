@@ -22,5 +22,5 @@ def pipeline():
     idade = pegar_idade()
     devolutiva_usaurio(idade)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     pipeline()

@@ -11,5 +11,11 @@ def calculadora():
     except:
         print('Você digitou algo errado.')
         calculadora()
+<<<<<<< HEAD
 if __name__ == "__main__":
     calculadora()
+=======
+
+if __name__ == '__main__':
+    calculadora()
+>>>>>>> secundary_branch
