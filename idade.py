@@ -18,8 +18,9 @@ def devolutiva_usaurio(idade):
     else:
         print('Você é maior de idade')
 
-def main():
+def pipeline():
     idade = pegar_idade()
     devolutiva_usaurio(idade)
 
-main()
+if __name__ == '__main__':
+    pipeline()

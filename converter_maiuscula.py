@@ -5,4 +5,5 @@ def solicitar_nome_usuario():
     nome = input("digite o nome: ")
     print(nome.upper())
 
-solicitar_nome_usuario()
+if __name__ == '__main__':
+    solicitar_nome_usuario()

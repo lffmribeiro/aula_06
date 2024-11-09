@@ -14,4 +14,5 @@ def pedir_data():
         print('Tente novamente')
         pedir_data()
     
-pedir_data()
+if __name__ == '__main__':
+    pedir_data()
